@@ -16,5 +16,5 @@ jobs:
         CI: true
         ACCESS_TOKEN: ${{ secrets.TOKEN }}
         BRANCH: gh-pages
-        FOLDER: build
+        FOLDER: release
         BUILD_SCRIPT: npm install && npm run package-all
